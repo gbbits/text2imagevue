@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vue Popup Extension Example</title>
+  <!-- 引入Vue和你的弹窗组件 -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <!-- <script src="../dist/text2imagevue.js"></script> -->
+</head>
+<body>
+  <div id="app">
+    <!-- 使用你的弹窗组件 -->
+    <PopupModal title="My Popup">
+      <!-- Custom content goes here -->
+      <p>Hello, this is my custom popup content!</p>
+    </PopupModal>
+  </div>
+
+  <script>
+    import PopupModal from './src/PopupModal.vue';
+    new Vue({
+      el: '#app',
+      components: {
+        PopupModal
+      }
+    });
+  </script>
+</body>
+</html>

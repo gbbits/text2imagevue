@@ -1,0 +1,38 @@
+{
+  "name": "@gbbits/text2imagevue",
+  "version": "1.0.0",
+  "description": "A simple Vue popup modal component",
+  "main": "dist/popup-modal.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gbbits/text2imagevue"
+  },
+  "keywords": [
+    "vue",
+    "popup",
+    "modal",
+    "component"
+  ],
+  "author": "gbbits",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gbbits/text2imagevue/issues"
+  },
+  "homepage": "https://github.com/gbbits/text2imagevue#readme",
+  "dependencies": {
+    "@gbbits/text2image": "^1.0.0",
+    "vue": "^3.4.21",
+    "vue-template-compiler": "^2.7.16"
+  },
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "vue-loader": "^17.4.2",
+    "vue-style-loader": "^4.1.3",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
